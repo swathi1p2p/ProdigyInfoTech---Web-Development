@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/128e65d304.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.jpg" class="logo">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Work">Work</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, Im <span>Swathi Patel</span><br> a web designer</h1>
+                </div>
+            </div>
+        </div>
+        <!-----about------>
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image 1.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>I am a UnderGraduate student of Bachelor of Engineering at Saveetha School of Engineering, 3rd year, Computer Science department.
+                            I am interested in website or application designing and developing, as per my career options by regard of my interest i have chosen 
+                            the web development domain. I have also done some projects regarding the web development.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            <p class="tab-links"  onclick="opentab('Hobbies')">Hobbies</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2024 - current</span><br>Saveetha School Of Engineering</li>
+                                <li><span>2020 - 2022</span><br>Narayana jr College</li>
+                                <li><span>upto 2020</span><br>Seven Hills High School</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Hobbies">
+                            <ul>
+                                <li>Playing games</li>
+                                <li>Reading Books</li>
+                                <li>watching series</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------services----------->
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p2>Web designing involves creating visually appealing and user-friendly layouts to enhance the user experience on websites.<br></p2>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p2>UI/UX design focuses on crafting intuitive and engaging interfaces that prioritize user satisfaction and seamless interactions.<br></p2>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p2>App designing involves creating user-friendly interfaces and navigation flows that provide a seamless mobile experience.<br></p2>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------work------------>
+        <div id="Work">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/Expense tracker.jpg">
+                        <div class="layer">
+                            <h3>Expense Tracker</h3>
+                            <p>This is the project that i have done using Html and CSS codes which is helpful for our 
+                                daily life expenses tracking.</p>
+                            <a href="images/expense tracker.jpg"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Stop Watch.jpg">
+                        <div class="layer">
+                            <h3>Stop Watch</h3>
+                            <p>This is the project that i have done using Html and CSS codes which is useful for the no.of laps based on the time difference.</p>
+                            <a href="images/Stop Watch output.png"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Tic-Tac-Toe.jpg">
+                        <div class="layer">
+                            <h3><Tic-Tac-Toe></Tic-Tac-Toe></h3>
+                            <p>This is the project that i have done using Html and CSS codes which is a game with signs "X" and "O".</p>
+                            <a href="images/Tic-Tac-Toe output.mp4"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <!----------contact----------->
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>swathi804544@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9398317006</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/swathi09_" aria-label="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/swathi-patel-515000327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/swathi1p2p" aria-label="GitHub"><i
+                                class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="Resume1 .pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="name" placeholder="your name" required>
+                            <input type="email" name="email" placeholder="your email" required>
+                            <textarea name="message" rows="6" placeholder="your message"required></textarea>
+                            <button type="Submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright swathi.<i class="fa-solid fa-heart"></i> Made for the project purpose</p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
+</html>

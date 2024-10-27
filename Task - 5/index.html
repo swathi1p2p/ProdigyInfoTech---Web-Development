@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button onclick="getWeather()">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    
+        <div class="weather-info">
+            <h2 id="city-name">Bengaluru</h2>
+            <div class="weather-icon">
+                <i class="fas fa-cloud-sun-rain"></i> <!-- Weather icon -->
+            </div>
+            <div id="temperature">26.72°C</div>
+            <div class="weather-details">
+                <div>
+                    <img src="images/humidity.png">
+                    <p>31% Humidity</p>
+                </div>
+                <div>
+                    <img src="images/wind.png">
+                    <p>4.63 km/h Wind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
